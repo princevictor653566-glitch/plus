@@ -159,16 +159,16 @@ buttons.addEventListener("click", function (event) {
     return;
   }
 
-  //  if (value !== undefined) {
-  //  if (current === "Error") clearCalculator();
+    if (value !== undefined) {
+    if (current === "Error") clearCalculator();
 
-  //  if ("0123456789.".includes(value) &&
-  //      value.length === 1) {
-  //      inputNumber(value);
-  //    } else if (["+", "-", "*", "/", "%"].includes(value)) {
-  //      chooseOperator(value);
-  //    }
-  //  }
+  if ("0123456789.".includes(value) &&
+       value.length === 1) {
+       inputNumber(value);
+     } else if (["+", "-", "*", "/", "%"].includes(value)) {
+       chooseOperator(value);
+     }
+    }
  });
 
  
